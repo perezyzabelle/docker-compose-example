@@ -1,0 +1,17 @@
+###
+GET http://localhost:14000/setup
+
+###
+GET http://localhost:14000/users/4
+
+###
+GET http://localhost:14000
+
+###
+POST http://localhost:14000/
+Content-Type: application/json
+
+{
+    "name": "smile",
+    "location": "46 hehe world street"
+}
